@@ -22,6 +22,7 @@ extern "C" { // Yes, that bad
 
 using namespace v8;
 
+extern size_t strlen (const char *__s);
 
 inline std::string aug_error_msg(augeas *aug)
 {
